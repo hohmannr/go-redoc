@@ -2,20 +2,20 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/mvrilo/go-redoc"
+	"github.com/hohmannr/go-redoc"
 
-	_ "github.com/mvrilo/go-redoc/_examples/gen/docs"
+	_ "github.com/hohmannr/go-redoc/_examples/gen/docs"
 
-	fiberredoc "github.com/mvrilo/go-redoc/fiber"
+	fiberredoc "github.com/hohmannr/go-redoc/fiber"
 )
 
 //go:generate swag init
 
-// @title Fiber Example API
-// @version 1.0
-// @description Fiber example for openapi spec generation
-// @host localhost:8000
-// @BasePath /
+//	@title			Fiber Example API
+//	@version		1.0
+//	@description	Fiber example for openapi spec generation
+//	@host			localhost:8000
+//	@BasePath		/
 func main() {
 	doc := redoc.Redoc{
 		Title:       "Example API",

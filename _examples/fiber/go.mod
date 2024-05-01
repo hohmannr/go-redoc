@@ -1,13 +1,13 @@
-module github.com/mvrilo/go-redoc/_examples/fiber
+module github.com/hohmannr/go-redoc/_examples/fiber
 
 go 1.21.5
 
-replace github.com/mvrilo/go-redoc => ../../
+replace github.com/hohmannr/go-redoc => ../../
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.0
-	github.com/mvrilo/go-redoc v0.1.5-0.20240119235626-7cdf2a730a86
-	github.com/mvrilo/go-redoc/fiber v0.0.0-20240120020317-ab46051c75c6
+	github.com/hohmannr/go-redoc v0.1.5-0.20240119235626-7cdf2a730a86
+	github.com/hohmannr/go-redoc/fiber v0.0.0-20240120020317-ab46051c75c6
 )
 
 require (

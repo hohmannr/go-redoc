@@ -1,10 +1,10 @@
-module github.com/mvrilo/go-redoc/echo
+module github.com/hohmannr/go-redoc/echo
 
 go 1.21.5
 
 require (
 	github.com/labstack/echo/v4 v4.11.4
-	github.com/mvrilo/go-redoc v0.1.5-0.20240119235626-7cdf2a730a86
+	github.com/hohmannr/go-redoc v0.1.5-0.20240119235626-7cdf2a730a86
 )
 
 require (
@@ -19,4 +19,4 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 )
 
-replace github.com/mvrilo/go-redoc => ../
+replace github.com/hohmannr/go-redoc => ../

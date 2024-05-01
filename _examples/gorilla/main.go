@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/mvrilo/go-redoc"
+	"github.com/hohmannr/go-redoc"
 )
 
 func main() {

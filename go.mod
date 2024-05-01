@@ -1,4 +1,4 @@
-module github.com/mvrilo/go-redoc
+module github.com/hohmannr/go-redoc
 
 go 1.17
 
@@ -9,5 +9,3 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/mvrilo/go-redoc => github.com/hohmannr/go-redoc v0.1.6
