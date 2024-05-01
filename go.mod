@@ -10,4 +10,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/mvrilo/go-redoc => github.com/hohmannr/go-redoc v0.1.5
+replace github.com/mvrilo/go-redoc => github.com/hohmannr/go-redoc v0.1.6
